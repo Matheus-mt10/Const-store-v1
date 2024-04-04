@@ -3,4 +3,6 @@
     align-items: center;
     justify-content: center;
 }
-
+.swiper{
+    height: 240px;
+}
