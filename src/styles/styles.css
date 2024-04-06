@@ -6,3 +6,8 @@
 .swiper{
     height: 240px;
 }
+
+.swiper-button-prev, .swiper-button-next{
+    color: black;
+}
+
