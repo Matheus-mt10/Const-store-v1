@@ -4,10 +4,19 @@
     justify-content: center;
 }
 .swiper{
+   /* dsd */
+}
+
+#mostWantedProducts{
+    height: 460px;
+}
+
+#favoriteBrand{
     height: 240px;
 }
 
 .swiper-button-prev, .swiper-button-next{
     color: black;
+    
 }
 
