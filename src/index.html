@@ -16,8 +16,8 @@
 
 <body class=" bg-gray-100 h-screen w-full">
     <!-- -- Header -- Header  -- Header  -- Header  -->
-    <header class="flex flex-col items-center w-full h-44 
-    border-b-2 border-black">
+    <header class="flex flex-col items-center w-full h-48
+    border-b-2 border-black ">
 
         <!-- Div de alinhamento -->
         <div class="flex justify-center items-center pt-4 space-x-4">
@@ -52,7 +52,7 @@
         </div>
 
         <!-- Search Bar -->
-        <div class="bg-slate-200 w-80 h-10 flex items-center justify-center gap-3 rounded-3xl mt-5">
+        <div class="bg-slate-200 w-80 h-10 flex items-center justify-center gap-3 rounded-3xl mt-5 ">
             <!-- SEARCH ICON -->
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
@@ -69,7 +69,7 @@
 
     <main>
         <!-- BANNER AIR MAX -->
-        <div class="mt-4">
+        <div>
             <a href="#  "><img src="assets/AirMax-Banner.png" alt="Banner sale"></a>
             <!-- BUTTON -->
             <div class="w-full flex justify-center pt-4">
@@ -80,7 +80,7 @@
         </div>
 
         <!-- MAIS PROCURADOS -->
-        <section class="mt-10">
+        <section class="mt-10 bg-white">
             <span class="text-lg font-bold pl-4">Mais procurados</span>
 
             <!-- SLIDER CAROUSEL -->
@@ -140,7 +140,7 @@
                         </div>
                         <!-- SLIDE 2-->
                         <div class="swiper-slide">
-                            
+
                             <!-- CARD SECTION -->
                             <section class="flex justify-center mt-6 mb-6">
                                 <!-- CARD  -->
@@ -246,8 +246,8 @@
                         <!-- SLIDE 4 -->
                         <div class="swiper-slide">
 
-                              <!-- CARD SECTION -->
-                              <section class="flex justify-center mt-6 mb-6">
+                            <!-- CARD SECTION -->
+                            <section class="flex justify-center mt-6 mb-6">
                                 <!-- CARD  -->
                                 <div class="bg-gray-100 w-64 h-96 border-2 border-black rounded-lg overflow-hidden">
                                     <!-- CARD HEADER -->
@@ -294,9 +294,8 @@
 
                             </section>
                         </div>
-
+                        <!-- SLIDE 5 -->
                         <div class="swiper-slide">
-
                             <section class="flex justify-center mt-6 mb-6">
                                 <!-- CARD  -->
                                 <div class="bg-gray-100 w-64 h-96 border-2 border-black rounded-lg overflow-hidden">
@@ -347,10 +346,9 @@
 
 
                         </div>
-
-
+                        <!-- SLIDE 6 -->
                         <div class="swiper-slide">
-                            
+
                             <section class="flex justify-center mt-6 mb-6">
                                 <!-- CARD  -->
                                 <div class="bg-gray-100 w-64 h-96 border-2 border-black rounded-lg overflow-hidden">
@@ -380,7 +378,7 @@
                                     <!-- SNEAKER PRICE -->
                                     <div class="flex items-center pt-1 pl-4">
                                         <!-- price -->
-                                        <span class="font-semibold">R$ 1.443    ,99</span>
+                                        <span class="font-semibold">R$ 1.443 ,99</span>
                                         <!-- STARS -->
                                         <div class="flex pl-2">
                                             <span><img class="w-4 h-4" src="assets/star.png" alt=""></span>
@@ -398,8 +396,8 @@
                                 </div>
 
                             </section>
-                        
-                        
+
+
                         </div>
                     </div>
                     <!-- If we need pagination -->
@@ -415,22 +413,12 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!-- BANNER CATEGORIES -->
+        <section class="p-2 flex flex-col gap-4">
+            <a href="#"><img src="assets/soccerBanner.png" alt=""></a>
+            <a href="#"> <img src="assets/basketBanner.png" alt=""></a>
+            <a href="#"><img src="assets/skateBanner.png" alt=""></a>
+        </section>
 
         <!-- CARD SECTION -->
         <section class=" bg-orange-300 flex flex-col w-full p-4">
@@ -533,9 +521,67 @@
 
             </div>
         </section>
-
-
     </main>
+
+
+    <!-- MARCAS CATEGORIAS E INFORMAÇÕES -->
+    <footer class="flex flex-col gap-4 w-full bg-black  ">
+        <!-- BRAND HISTORY -->
+        <div class=" p-4">
+            <!-- BRAND LOGO -->
+            <div>
+                <span><a href="#"><img src="assets/logowhite-cut.png" alt=""></a></span>
+            </div>
+            <!-- BRAND TEXT HISTORY -->
+            <span class="text-white text-sm font-medium">
+                Bem-vindo à Const Store, o seu destino definitivo para a fusão perfeita entre moda e tecnologia no mundo
+                dos tênis! <br><br>
+
+                Na Const Store, acreditamos que os tênis não são apenas acessórios de moda, mas também uma expressão de
+                estilo e personalidade. Nossa equipe está comprometida em fornecer produtos de alta qualidade que
+                combinam estilo e funcionalidade, para que você possa se destacar em qualquer lugar, a qualquer
+                momento.</span>
+        </div>
+
+        <!-- CATEGORIES -->
+        <section class="flex flex-col gap-4 text-white mt-4 p-4">
+            <span class=" text-xl flex flex-col gap-2">MARCAS
+                <hr class="border-solid border-1 border-white">
+            </span>
+            <span class=" text-xl flex flex-col gap-2 ">CATEGORIAS
+                <hr class="border-solid border-1 border-white">
+            </span>
+            <span class=" text-xl flex flex-col gap-2 ">INFORMAÇÕES
+                <hr class="border-solid border-1 border-white">
+            </span>
+        </section>
+
+        <!-- SOCIAL MEDIAS -->
+        <section class="flex flex-col items-center gap-4 mt-4">
+            <!-- TITLE -->
+            <span class="text-white text-2xl font-medium">SIGA A CONST</span>
+            <!-- SOCIAL MEDIAS ICONS -->
+            <div class="flex gap-4">
+                <a href="#"><img class="w-8 h-8" src="assets/faceWhite.png" alt="Facebook Icon"></a>
+                <a href="#"><img class="w-8 h-8" src="assets/insta-white.png" alt="Instagram icon"></a>
+                <a href="#"><img class="w-8 h-8" src="assets/youtubeWhite.png" alt="Youtube icon"></a>
+            </div>
+        </section>
+
+        <!-- FORMAS DE PAGAMENTO -->
+        <section class="flex flex-col items-center bg-white ">
+            <span class="font-bold mt-8 mb-8" >FORMAS DE PAGAMENTO</span>
+            <!-- FLAG CARDS -->
+            <div class="grid grid-cols-3 gap-4">
+                <span><img class="w-20 h-20" src="assets/visa.png" alt="Visa icon"></span>
+                <span><img class="w-20 h-20" src="assets/mastercard.png" alt="Mastercard Icon"></span>
+                <span><img class="w-20 h-20" src="assets/Americanexpress.png" alt="American Express icon"></span>
+                <span><img class="w-20 h-20" src="assets/cielo.png" alt="Cielo icon"></span>
+                <span><img class="w-20 h-20" src="assets/elo.png" alt="Elo icon"></span>
+                <span><img class="w-20 h-20" src="assets/hipercard.png" alt="Hipercard icon"></span>
+            </div>
+        </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="scripts/scripts.js"></script>
 </body>
