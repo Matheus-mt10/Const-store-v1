@@ -1,22 +1,28 @@
-.swiper-slide{
+.swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.swiper{
-   /* dsd */
+
+.swiper {
+    width: 100%;
+    height: 100%;
 }
 
-#mostWantedProducts{
+#mostWantedProducts {
     height: 460px;
 }
 
-#favoriteBrand{
+#favoriteBrand {
     height: 240px;
 }
 
-.swiper-button-prev, .swiper-button-next{
+.swiper-button-prev,
+.swiper-button-next {
     color: black;
-    
 }
 
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 20px;
+}
