@@ -789,6 +789,11 @@ video {
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
+.bg-orange-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -802,31 +807,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-teal-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(13 148 136 / var(--tw-bg-opacity));
-}
-
-.bg-orange-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
-}
-
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.bg-orange-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -949,72 +929,32 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:h-24 {
-    height: 6rem;
-  }
-
-  .sm\:h-96 {
-    height: 24rem;
-  }
-
-  .sm\:h-1\/2 {
-    height: 50%;
-  }
-
   .sm\:h-1\/3 {
     height: 33.333333%;
   }
 
-  .sm\:h-1\/4 {
-    height: 25%;
+  .sm\:h-24 {
+    height: 6rem;
   }
 
-  .sm\:h-2 {
-    height: 0.5rem;
+  .sm\:h-5 {
+    height: 1.25rem;
   }
 
-  .sm\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .sm\:h-2\/4 {
-    height: 50%;
-  }
-
-  .sm\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .sm\:h-3\/4 {
-    height: 75%;
-  }
-
-  .sm\:h-1 {
-    height: 0.25rem;
-  }
-
-  .sm\:h-1\/5 {
-    height: 20%;
-  }
-
-  .sm\:h-1\/6 {
-    height: 16.666667%;
-  }
-
-  .sm\:h-2\.5 {
-    height: 0.625rem;
+  .sm\:h-6 {
+    height: 1.5rem;
   }
 
   .sm\:h-full {
     height: 100%;
   }
 
-  .sm\:h-4 {
-    height: 1rem;
+  .sm\:h-auto {
+    height: auto;
   }
 
-  .sm\:h-5 {
-    height: 1.25rem;
+  .sm\:h-4 {
+    height: 1rem;
   }
 
   .sm\:w-24 {
@@ -1025,12 +965,12 @@ video {
     width: 80%;
   }
 
-  .sm\:w-6 {
-    width: 1.5rem;
+  .sm\:w-5 {
+    width: 1.25rem;
   }
 
-  .sm\:w-72 {
-    width: 18rem;
+  .sm\:w-6 {
+    width: 1.5rem;
   }
 
   .sm\:w-80 {
@@ -1039,10 +979,6 @@ video {
 
   .sm\:w-4 {
     width: 1rem;
-  }
-
-  .sm\:w-5 {
-    width: 1.25rem;
   }
 
   .sm\:p-6 {
