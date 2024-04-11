@@ -945,16 +945,8 @@ video {
     height: 1.5rem;
   }
 
-  .sm\:h-full {
-    height: 100%;
-  }
-
   .sm\:h-auto {
     height: auto;
-  }
-
-  .sm\:h-4 {
-    height: 1rem;
   }
 
   .sm\:w-24 {
@@ -975,10 +967,6 @@ video {
 
   .sm\:w-80 {
     width: 20rem;
-  }
-
-  .sm\:w-4 {
-    width: 1rem;
   }
 
   .sm\:p-6 {
