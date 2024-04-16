@@ -1016,6 +1016,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
   .md\:h-12 {
     height: 3rem;
   }
